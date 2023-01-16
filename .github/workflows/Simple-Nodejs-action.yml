@@ -23,4 +23,5 @@ jobs:
       run: |
          npm install 
          npm run build
+         npm audit fix
       working-directory: ./.github/actions/check-secrets-action
