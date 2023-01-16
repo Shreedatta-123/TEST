@@ -24,4 +24,4 @@ jobs:
         npm init
         npm install
         npm run build
-      working-directory: ./check-secrets-action
+      working-directory: ./.github/actions/check-secrets-action
