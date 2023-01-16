@@ -25,4 +25,4 @@ jobs:
         npm install express
         npm install
         npm run build
-      working-directory: TEST/.github/actions/check-secrets-action
+      working-directory: ./check-secrets-action
