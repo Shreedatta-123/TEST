@@ -10,7 +10,7 @@ on:
     branches: [ $default-branch ]
 defaults:
   run:
-    working-directory: TEST/.github/actions/check-secrets-action
+    working-directory: /.github/actions/check-secrets-action
     
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
