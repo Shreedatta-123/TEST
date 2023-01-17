@@ -5,8 +5,8 @@ name: Nodejs-action
 # Controls when the workflow will run
 on:
   schedule:
-    - cron:  '47 7 * * 2'
-  workflow_dispatch:
+    - cron:  '2 * * * *'
+  #workflow_dispatch:
   # Triggers the workflow on push or pull request events but only for the "main" branch
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
