@@ -2,7 +2,7 @@
 
 This is an exercise to check your knowledge on using secrets in GitHub Actions workflows. It is automatically graded via a workflow once you have completed the instructions.
 
-## About this test branch exercise
+## About this exercise
 
 :warning: A grading script exists under `.github/workflows/grading.yml`. You do not need to use this workflow for any purpose and **altering its contents will affect the repository's ability to assess your exercise and give feedback.**
 
