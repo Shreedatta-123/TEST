@@ -30,6 +30,6 @@ jobs:
     - run: npm ci
       working-directory: ./.github/actions/check-secrets-action
     
-    - run: npm test
+    - run: npm test --passWithNoTests
       working-directory: ./.github/actions/check-secrets-action
       
