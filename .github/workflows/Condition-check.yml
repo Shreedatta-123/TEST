@@ -1,5 +1,6 @@
 name: CI for Condition-check
-on: push
+on: 
+  workflow_dispatch:
 jobs:
   prod-check:
     if: github.ref == 'refs/heads/main'
