@@ -12,7 +12,7 @@ jobs:
       - run: echo "Nice work, $First_Name. Deploying to production server on branch $GITHUB_REF"
         env:
           First_Name: Nadig, Shreedatta
-      - run: ./.githu/actions/check-secrets-action/test.sh
+      - run: ./.github/actions/check-secrets-action/test.sh
         env:
             First_Name: Shree
         
