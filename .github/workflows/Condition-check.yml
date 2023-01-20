@@ -15,7 +15,11 @@ jobs:
           First_Name: Nadig, Shreedatta
       - run: chmod u=rwx ./.github/actions/check-secrets-action/test.sh
       - run: chmod u=rwx ./.github/actions/check-secrets-action/test.ps1
-      - run: ./.github/actions/check-secrets-action/test.ps1
+      - name: Powershel script
+        shell: pwsh
+        run: ./.github/actions/check-secrets-action/test.ps1
+        env:
+            First_Name: Shree
       - run: ./.github/actions/check-secrets-action/test.sh
         env:
             First_Name: Shree
