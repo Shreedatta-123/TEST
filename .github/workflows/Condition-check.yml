@@ -14,6 +14,7 @@ jobs:
         env:
           First_Name: Nadig, Shreedatta
       - run: chmod u=rwx ./.github/actions/check-secrets-action/test.sh
+      - run: ./.github/actions/check-secrets-action/test.ps1
       - run: ./.github/actions/check-secrets-action/test.sh
         env:
             First_Name: Shree
