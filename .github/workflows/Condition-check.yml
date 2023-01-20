@@ -1,0 +1,15 @@
+name: CI for Condition-check
+on: push
+jobs:
+  prod-check:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deploying to production server on branch $GITHUB_REF"
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - run: echo "Nice work, $First_Name. Deploying to production server on branch $GITHUB_REF"
+        env:
+          First_Name: Nadig, Shreedatta
+
