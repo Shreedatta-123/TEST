@@ -1,1 +1,1 @@
-write-host "hello"
+Write-Host "Hello $Fisrt_Name"
